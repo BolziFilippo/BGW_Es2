@@ -94,6 +94,11 @@ namespace BGW_Es2
                 bgw.CancelAsync();
             }
         }
+        // 
+        private void txt_box1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void btn_A100_Click(object sender, EventArgs e)
         {

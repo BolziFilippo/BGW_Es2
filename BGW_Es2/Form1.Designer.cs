@@ -64,6 +64,7 @@
             this.txt_box1.Name = "txt_box1";
             this.txt_box1.Size = new System.Drawing.Size(100, 340);
             this.txt_box1.TabIndex = 2;
+            this.txt_box1.TextChanged += new System.EventHandler(this.txt_box1_TextChanged);
             // 
             // btn_A100
             // 
@@ -93,7 +94,7 @@
             this.txt_box2.Size = new System.Drawing.Size(100, 340);
             this.txt_box2.TabIndex = 5;
             // 
-            // bgw1
+            // bgw3
             // 
             this.bgw3.WorkerReportsProgress = true;
             this.bgw3.WorkerSupportsCancellation = true;
